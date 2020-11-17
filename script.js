@@ -10,6 +10,8 @@ function onLoad() {
           nav.classList.add('open')
         }
     } )
+    // slideshow
+    const slideshow = document.querySelector('#slideshow')
+    const slides = new flickity( slideshow, {})
 }
-
 window.addEventListener( 'load' , onLoad )
