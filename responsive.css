@@ -54,5 +54,15 @@
 
     .content {
         min-width: 90vw;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .item{
+        grid-column: span 3;
+    }
+    
+    .item img {
+        width: 100%
     }
 }
