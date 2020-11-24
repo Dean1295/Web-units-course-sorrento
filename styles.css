@@ -85,6 +85,17 @@ h2{
     padding: 0.8em;
 }
 
+.navigation a:link {
+    color: var(--nav-link);
+}
+
+.navigation a:visited {
+    color:var(--nav-link) ;}
+
+.navigation a:active {
+    color: white;
+}
+
 .navigation a:hover {
     color: var(--nav-hover);
 }
@@ -173,7 +184,7 @@ h2{
 #contact {
     max-width: 640px;
     margin: auto;
-    margin-top: 4em;
+    /* margin-top: 4em; */
 }
 
 .label {
@@ -202,6 +213,19 @@ h2{
     border: 1px solid var(--primary-color);
     border-radius: 0.5em;
 }
+
+/* map */
+#map {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    min-width: 100%;
+}
+#calendar {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    min-width: 100%;
+}
+
 
 /* slideshow */
 /* #slideshow {
